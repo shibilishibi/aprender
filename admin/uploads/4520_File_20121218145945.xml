@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<template>
+	<param>type=0;cutscale=512:371;cutdirect=5;pos=126,40,634,40,634,409,125,409;effect=sketch_class,4;rotate=1</param>
+	<name>English</name>
+	<name_cn>中文</name_cn>
+</template>
+
+

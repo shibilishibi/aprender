@@ -1,0 +1,10 @@
+<?php
+										$query = mysql_query("select * FROM s_mark 
+										LEFT JOIN student on student.student_id  = s_mark.student_id
+										RIGHT JOIN s_mark on s_mark.class_id  = class.class_id
+										WHERE s_mark.student_id = '$session_id'
+										order by fdatein DESC")or die(mysql_error());
+										while($row = mysql_fetch_array($query)){
+										$id  = $row['mark_student_id'];
+										$student_id = $row['student_id'];
+									?>     
